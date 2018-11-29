@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+    background: url("http://res.cloudinary.com/mpauldesigns/image/upload/v1522434303/33a65680192e9b0dd9dbcca87ecc76aa.jpg");
+    no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+button {
+    background-color: rgba(255, 255, 255, 0.2);
+    /* background-color: transparent; */
+}
+
+button img {
+    height: 30px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
