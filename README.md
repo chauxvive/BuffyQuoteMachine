@@ -31,4 +31,4 @@ HTML, CSS, and JavaScript
 
 ### Future upgrades:
 
-I would like to improve the design and make it mildly less tacky though still revelling in the early aughts vibe.
+I would like to improve the design and make it mildly less tacky while still revelling in the early aughts vibe.
