@@ -27,7 +27,7 @@ Create a one-page "Random quote machine" for a chosen subject in the style of [t
 
 ### Technologies Used:
 
-HTML, CSS, and JavaScript
+HTML5, CSS3, and JavaScript
 
 ### Future upgrades:
 
