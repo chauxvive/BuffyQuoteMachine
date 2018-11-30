@@ -58,4 +58,4 @@ var quotes = [
     "I’m the thing that monsters have nightmares about. And right now, you and me are gonna show ‘em why. <br>- Buffy"
 
 
-]
+];
