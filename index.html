@@ -24,7 +24,7 @@
     <link rel="stylesheet" type="text/css" href="main.css" />
 
     <!-- my JS -->
-    <script src="/main.js"></script>
+    <script src="main.js"></script>
 </head>
 
 <body>
@@ -40,25 +40,26 @@
         </h1>
 
         <div class="px-5">
-            <button onclick="getNewQuote()" class="btn btn-primary-outline center-text lead text-light" id="quoteButton">
-                <img src="http://res.cloudinary.com/mpauldesigns/image/upload/v1522436280/151812055.png" class="image-fluid">
+            <button id="quoteButton" class="btn btn-primary-outline center-text lead text-light">
+                <img src="assets/151812055.png" class="image-fluid">
                 Hit me again
             </button>
+
             <div id="quoteBox" class="text-dark w-50 bg-light px-5 py-3 text-center">
                 Get yourself some Buffy Love
             </div>
-            <a id="tweetThis" onclick="tweetQuote()" href="#" target="_blank">
-                <button class="btn btn-dark">
-                    If the Apocalypse comes, tweet me. <i class="fa fa-twitter"></i>
-                </button>
-            </a>
+
+            <button id="tweetButton" class="btn btn-dark">
+                If the Apocalypse comes, tweet me. <i class="fa fa-twitter"></i>
+            </button>
+            
         </div>
     </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-    
+
 </body>
 
 </html>

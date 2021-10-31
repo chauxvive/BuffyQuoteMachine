@@ -1,16 +1,29 @@
-//quote generator
-function getNewQuote() {
-    var randomNumber = Math.floor(Math.random() * quotes.length);
-    document.getElementById('quoteBox').innerHTML = quotes[randomNumber];
-}
+document.addEventListener("DOMContentLoaded", function(event) {
 
-//tweet this
-function tweetQuote() {
-    var msg = document.getElementById('quoteBox').textContent;
-    if (msg != "Get yourself some Buffy Love")
-        window.open('https://twitter.com/intent/tweet?text="' + msg + '"', '_blank');
-}
+	console.log("Ready!");
 
+    //connect event listeners to index.html
+    document.getElementById("quoteButton").addEventListener("click", getNewQuote);
+    document.getElementById("tweetButton").addEventListener("click", tweetQuote);
+
+    //quote generator
+    function getNewQuote() {
+        let randomNumber = Math.floor(Math.random() * quotes.length);
+        document.getElementById('quoteBox').innerHTML = quotes[randomNumber];
+    }
+
+    //tweet this
+    function tweetQuote() {
+        let msg = document.getElementById('quoteBox').textContent;
+        let twitterURL = 'https://twitter.com/intent/tweet?text="' + msg + '"';
+
+        if (msg.trim() != "Get yourself some Buffy Love") {
+            window.open(twitterURL);
+        }
+            
+    }
+
+});
 
 //quote archive
 var quotes = [
@@ -55,9 +68,9 @@ var quotes = [
 
     "You know, I honestly don't think there's a human word fabulous enough for me.<br>- Glory",
     
-    "The Big Moments are going to come. You can't help that. It's what you do afterwards that counts. That's when you find out who you are. <br>- Buffy"
+    "The Big Moments are going to come. You can't help that. It's what you do afterwards that counts. That's when you find out who you are. <br>- Buffy",
     
-     "Strong is fighting. It's hard and it's painful and it's every day. It's what we have to do and we can do it together, but if you're too much of a coward for that, then burn. <br>- Buffy"
+     "Strong is fighting. It's hard and it's painful and it's every day. It's what we have to do and we can do it together, but if you're too much of a coward for that, then burn. <br>- Buffy",
     
      "I don't know what's coming next. But I do know it's gonna be just like this-- hard. Painful. But in the end it's gonna be us. If we do all our parts, believe it, we'll be the ones left standing. <br>- Buffy"
 
