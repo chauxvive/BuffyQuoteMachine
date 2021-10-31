@@ -54,8 +54,12 @@ var quotes = [
     "You gotta give me something to do. There's no way I'm sleeping. Don't you need anyone dead? Or maimed? I can settle for maimed.<br>– Faith",
 
     "You know, I honestly don't think there's a human word fabulous enough for me.<br>- Glory",
-
-    "I’m the thing that monsters have nightmares about. And right now, you and me are gonna show ‘em why. <br>- Buffy"
+    
+    "The Big Moments are going to come. You can't help that. It's what you do afterwards that counts. That's when you find out who you are. <br>- Buffy"
+    
+     "Strong is fighting. It's hard and it's painful and it's every day. It's what we have to do and we can do it together, but if you're too much of a coward for that, then burn. <br>- Buffy"
+    
+     "I don't know what's coming next. But I do know it's gonna be just like this-- hard. Painful. But in the end it's gonna be us. If we do all our parts, believe it, we'll be the ones left standing. <br>- Buffy"
 
 
 ];
