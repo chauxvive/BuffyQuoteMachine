@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html>
 <!--To Do List:
     -improve formatting
     -add shadow to quote box. because why not.
@@ -5,10 +7,6 @@
     -change button to "hit me" before it's pushed first time
     -how about typography huh? Yikes.
 -->
-
-<!DOCTYPE html>
-<html>
-
 <head>   
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -33,25 +31,35 @@
     <div id="content container">
 
         <!--boring version 
-    <h1 class="text-light p-5">Buffy Quote Generator</h1> -->
+        <h1 class="text-light p-5">Buffy Quote Generator</h1> -->
 
         <!--lush trashy version -->
-        <h1 class="align-middle m-5 p-5"><img src="https://fontmeme.com/permalink/180330/d07971aca6a3964f5e447baf3c850ffe.png"
-                alt="buffy-the-vampire-slayer-font" border="0" class="pt-5"></h1>
+        <h1 class="align-middle m-5 p-5">
+            <img src="https://fontmeme.com/permalink/180330/d07971aca6a3964f5e447baf3c850ffe.png"
+                alt="buffy-the-vampire-slayer-font" border="0" class="pt-5">
+        </h1>
 
         <div class="px-5">
-            <button onclick="getNewQuote()" class="btn btn-primary-outline center-text lead text-light" id="quoteButton"><img
-                    src="http://res.cloudinary.com/mpauldesigns/image/upload/v1522436280/151812055.png" class="image-fluid">Hit
-                me again</button>
-            <div id="quoteBox" class="text-dark w-50 bg-light px-5 py-3 text-center">Get yourself some Buffy Love</div>
-            <a id="tweetThis" onclick="tweetQuote()" href="#" target="_blank"><button class="btn btn-dark">If the
-                    Apocalypse comes, tweet me. <i class="fa fa-twitter"></i></a>
+            <button id="quoteButton" class="btn btn-primary-outline center-text lead text-light">
+                <img src="assets/151812055.png" class="image-fluid">
+                Hit me again
+            </button>
+
+            <div id="quoteBox" class="text-dark w-50 bg-light px-5 py-3 text-center">
+                Get yourself some Buffy Love
+            </div>
+
+            <button id="tweetButton" class="btn btn-dark">
+                If the Apocalypse comes, tweet me. <i class="fa fa-twitter"></i>
+            </button>
+            
         </div>
     </div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.min.js"></script>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
