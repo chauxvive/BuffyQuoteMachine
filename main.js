@@ -78,7 +78,9 @@ var quotes = [
     
      "Strong is fighting. It's hard and it's painful and it's every day. It's what we have to do and we can do it together, but if you're too much of a coward for that, then burn. <br>- Buffy",
     
-     "I don't know what's coming next. But I do know it's gonna be just like this-- hard. Painful. But in the end it's gonna be us. If we do all our parts, believe it, we'll be the ones left standing. <br>- Buffy"
+     "I don't know what's coming next. But I do know it's gonna be just like this-- hard. Painful. But in the end it's gonna be us. If we do all our parts, believe it, we'll be the ones left standing. <br>- Buffy",
+     
+     "I may be dead but I'm still pretty.<br>- Buffy"
 
 
 ];
